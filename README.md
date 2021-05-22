@@ -12,6 +12,7 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
+![screenshot](https://i.ibb.co/M8DhGBX/ignews.png)
 
 ## STACK
 
@@ -47,7 +48,7 @@ $ cd ignews
 $ npm install
 
 # Run the app
-$ npm start
+$ npm start 
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
