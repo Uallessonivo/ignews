@@ -1,4 +1,3 @@
-
 <h1 align="center">
   IgNews
   <br>
@@ -12,7 +11,9 @@
   <a href="#how-to-use">How To Use</a> •
 </p>
 
-![screenshot](https://i.ibb.co/M8DhGBX/ignews.png)
+<p align="center">
+  <img alt="IgNews" src="https://i.ibb.co/M8DhGBX/ignews.png">
+</p>
 
 ## STACK
 
@@ -23,15 +24,16 @@
 - Stripe
 - PrismicCMS
 - FaunaDB
+
 ## Features
 
-* Create account and login through github provider
-* If the user has an active subscription, posts are fully loaded  
-* If the user does not have an active subscription, only previews of the posts will be loaded
-* The user's subscription status will be saved in the database
-* If the user already has an active subscription, the subscription button redirects the user to the posts
-* If the user does not have an active subscription, the subscription button will also appear in the post preview
-* Posts are created in the Prismic CMS and updated on the website in real time
+- Create account and login through github provider
+- If the user has an active subscription, posts are fully loaded
+- If the user does not have an active subscription, only previews of the posts will be loaded
+- The user's subscription status will be saved in the database
+- If the user already has an active subscription, the subscription button redirects the user to the posts
+- If the user does not have an active subscription, the subscription button will also appear in the post preview
+- Posts are created in the Prismic CMS and updated on the website in real time
 
 ## How To Use
 
@@ -48,7 +50,7 @@ $ cd ignews
 $ npm install
 
 # Run the app
-$ npm start 
+$ npm start
 ```
 
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
@@ -58,4 +60,3 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 MIT
 
 ---
-
